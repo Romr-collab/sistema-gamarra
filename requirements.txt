@@ -2,7 +2,7 @@ streamlit
 pandas
 folium
 streamlit-folium
-ultralytics
-opencv-python-headless
+ultralytics==8.0.238
+opencv-python-headless==4.8.1.78
 scipy
 numpy
