@@ -19,7 +19,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Enlace de tu Google Sheets (Reemplázalo por el tuyo real)
-URL_SHEETS = "TU_ENLACE_LARGO_DE_GOOGLE_SHEETS_AQUÍ"
+URL_SHEETS = "https://docs.google.com/spreadsheets/d/1D-Rsf0oXo7DqGn1KnnbMqqTGI2xnFG9jEFfm0jVBVbI/export?format=csv"
 
 @st.cache_data(ttl=60) # Se actualiza automáticamente cada 60 segundos si hay cambios
 def cargar_datos():
