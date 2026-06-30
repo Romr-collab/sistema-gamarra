@@ -1,3 +1,11 @@
+import sys
+import collections
+# Parche para simular cv2 en servidores sin gráficos
+try:
+    import cv2
+except ImportError:
+    import os
+    os.environ["QT_QPA_PLATFORM"] = "offscreen"
 import streamlit as st
 import pandas as pd
 import folium
